@@ -11,7 +11,7 @@ def mac2vendor():
 	list_mac=txt.get("1.0", "end-1c").split("\n")
 	print("------ koko kara ------------------")
 	for mac in list_mac:
-		search_mac = mac.upper().replace(':', '').replace('-', '')[0:6]
+		search_mac = mac.upper().replace(':', '').replace('-', '').replace('.', '')[0:6]
 		print(mac.strip("\n") ,dict_from_csv.get(search_mac))
 	print("------ koko made ------------------")
 
