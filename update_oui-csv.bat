@@ -1,0 +1,1 @@
+curl "http://standards-oui.ieee.org/oui/oui.csv" > oui.csv
