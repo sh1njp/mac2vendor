@@ -1,1 +1,1 @@
-curl "http://standards-oui.ieee.org/oui/oui.csv" > oui.csv
+curl "https://standards-oui.ieee.org/oui/oui.csv" > oui.csv
